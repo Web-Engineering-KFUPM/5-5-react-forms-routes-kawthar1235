@@ -101,7 +101,6 @@ const [gender, setGender] = useState("");
         <button
   type="submit"
   className="btn"
-  disabled={!email || !password || !gender}
 >
   Register
 </button>
